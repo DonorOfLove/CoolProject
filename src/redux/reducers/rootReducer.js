@@ -1,8 +1,8 @@
 import {combineReducers} from "redux";
-import {infReducer} from "./infReducer";
-import {arrReducer} from "./arrReducer";
+import {searchReducer} from "./searchReducer";
+import {isLoadedreducer} from "./isLoadedReducer";
 
 export const rootReducer = combineReducers({
-    inf: infReducer,
-    arr: arrReducer
+    search: searchReducer,
+    loaded: isLoadedreducer
 })

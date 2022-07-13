@@ -1,13 +1,39 @@
+/*---COMMON---*/
+a{text-decoration-line: none;
+}
+/*---COMMON---*/
+
 body {
+  padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App{
+/*background-image: url("assets/shutter.png");*/
+  background-size: contain;
+  padding: 0 5%
+}
+/*-----NAV---*/
+.nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: blueviolet;
+  width: 110%;
+  margin-left: -5%;
+}
+.nav_link{
+color: white;
+font-size: 3vw;
+}
+.nav_inp_wrapp{
+  display: flex;
+  align-items: center;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.nav_inp{
+border-radius: 20px;
 }

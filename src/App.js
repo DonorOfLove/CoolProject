@@ -5,6 +5,9 @@ import Home from "./Views/Home";
 import Matches from "./Views/Matches";
 import Nav from "./Components/Nav"
 import Player from "./Views/Player";
+import Search from "./Views/Search";
+import Heroes from "./Views/Heroes";
+import Teams from "./Views/Teams";
 
 function App() {
  //  const removeInf = () => {
@@ -22,7 +25,10 @@ function App() {
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/matches" element={<Matches />} />
-            <Route path="Player" element={Player()} />
+            <Route path="/search" element={<Search />} />
+            <Route path="/player" element={<Player/>} />
+            <Route path="/teams" element={<Teams/>} />
+            <Route path="/heroes" element={<Heroes/>} />
         </Routes>
       {/*<p>{inf}</p>*/}
       {/*<button onClick={()=>removeInf()}></button>*/}

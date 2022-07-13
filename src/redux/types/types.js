@@ -1,1 +1,7 @@
-'S'
+export const SET_PLAYERS="SET_PLAYERS"
+export const SET_MATCH="SET_MATCH"
+export const CLEAR_STATE='CLEAR_STATE'
+
+export const TOGGLE_PLAYERS='TOGGLE_PLAYERS'
+export const TOGGLE_MATCH='TOGGLE_MATCH'
+export const TOGGLE_HEROES='TOGGLE_HEROES'
